@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- LineageOS -->
+  <project path="hardware/oneplus" remote="github" name="LineageOS/android_hardware_oneplus" revision="lineage-19.1" />
+
+  <!-- devicetree -->
+  <!-- <project path="device/oneplus/oneplus3" remote="github" name="tangalbert919/android_device_oneplus_oneplus3" revision="staging/lineage-19.1" /> -->
+  <project path="device/oneplus/oneplus3" remote="github" name="obeny/los_device_oneplus_oneplus3" revision="lineage-19.1-my" />
+
+  <!-- kernel -->
+  <!-- <project path="kernel/oneplus/msm8996" remote="github" name="tangalbert919/android_kernel_oneplus_msm8996" revision="staging/lineage-19.1-4.4" /> -->
+  <project path="kernel/oneplus/msm8996" remote="github" name="obeny/los_kernel_oneplus_msm8996" revision="lineage-19.1-my" />
+
+  <!-- proprietary -->
+  <!-- <project path="vendor/oneplus" remote="github" name="tangalbert919/proprietary_vendor_oneplus" revision="lineage-19.1" clone-depth="1" /> -->
+  <project path="vendor/oneplus/oneplus3" remote="github" name="obeny/proprietary_vendor_oneplus_oneplus3" revision="lineage-19.1-my" clone-depth="1" />
+</manifest>
